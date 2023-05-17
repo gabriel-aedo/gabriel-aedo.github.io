@@ -1,0 +1,91 @@
+/* Nav */
+
+.nav-link:hover {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+
+/* Index */
+
+.card {
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.card img {
+    padding: 20px;
+}
+
+/* Detalles. estilos generales*/
+
+main {
+    margin: 60px 10px;
+}
+
+p {
+    padding-top: 5px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0px;
+  }
+
+/* Galeria */
+
+#galeria {
+    width: 80vw;
+    margin: 70px auto;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: black;
+}
+
+/* Formulario */
+
+.form-container {
+    background: url("fotos/fondo form.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 10px;
+}
+
+.container {
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.container h1 {
+    color: white;
+}
+
+.form-group {
+    padding-bottom: 15px;
+}
+
+li {
+    list-style: none;
+} 
+
+input:not(#asunto) {
+    text-align: center;
+}
+
+#cuerpo {
+    resize: none;
+}
+
+#envio-exitoso {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
